@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cabinetbelieve.github.io/site-cabinet/sitemap.xml
