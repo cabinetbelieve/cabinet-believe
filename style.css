@@ -117,7 +117,7 @@ nav a.cta:hover { filter: brightness(1.08); color: var(--green-fg); }
 .hero .tagline { color: var(--green); font-weight: 700; font-size: 1.15rem; letter-spacing: 0.01em; margin-top: 12px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
 .hero-photo { margin: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
-.hero-photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.hero-photo img { width: 100%; aspect-ratio: 1200 / 566; object-fit: cover; }
 .quick { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; padding-bottom: 48px; }
 
 section { padding-block: 48px; border-top: 1px solid var(--line); scroll-margin-top: 90px; }
@@ -168,7 +168,7 @@ section { padding-block: 48px; border-top: 1px solid var(--line); scroll-margin-
 /* ---------- Notre cabinet et équipe ---------- */
 .premises { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: center; }
 .premises-photo { margin: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
-.premises-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.premises-photo img { width: 100%; aspect-ratio: 1200 / 527; object-fit: cover; }
 .spaces { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; min-width: 0; }
 .spaces li { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--green); padding: 12px 16px; display: grid; gap: 2px; min-width: 0; }
 .spaces strong { color: var(--primary); }

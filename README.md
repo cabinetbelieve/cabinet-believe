@@ -44,8 +44,6 @@ Site statique : une seule page en HTML, CSS et JavaScript, sans framework ni out
 
 - Photos : façade, accueil et responsable (voir `images/`).
 - Équipe : noms du personnel, si vous souhaitez les afficher (section Notre équipe).
-- Témoignages : remplacer chaque emplacement par le vrai témoignage, avec l'accord de la personne,
-  ou supprimer la section avant la publication.
 - JSON-LD (`index.html`) : remplacer l'image par la photo réelle de la façade.
 
 ## Notes
