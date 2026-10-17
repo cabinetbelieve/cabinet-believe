@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cabinet-believe.vercel.app/sitemap.xml
+Sitemap: https://cabinetbelieve.github.io/cabinet-believe/sitemap.xml

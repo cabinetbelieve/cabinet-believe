@@ -166,9 +166,11 @@ section { padding-block: 48px; border-top: 1px solid var(--line); scroll-margin-
 .checklist li::before { content: ""; position: absolute; left: 14px; top: 50%; width: 9px; height: 15px; margin-top: -10px; border: solid var(--green); border-width: 0 3px 3px 0; transform: rotate(45deg); }
 
 /* ---------- Notre cabinet et équipe ---------- */
-.premises { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: center; }
+.premises { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+.premises-photos { display: grid; gap: 16px; min-width: 0; }
 .premises-photo { margin: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
-.premises-photo img { width: 100%; aspect-ratio: 1200 / 527; object-fit: cover; }
+.premises-photo img { display: block; width: 100%; aspect-ratio: 1200 / 527; object-fit: cover; }
+.premises-photo figcaption { padding: 8px 14px; font-size: 0.9rem; font-weight: 600; color: var(--primary); border-top: 1px solid var(--line); }
 .spaces { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; min-width: 0; }
 .spaces li { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--green); padding: 12px 16px; display: grid; gap: 2px; min-width: 0; }
 .spaces strong { color: var(--primary); }
