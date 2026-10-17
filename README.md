@@ -6,7 +6,7 @@ demande de rendez-vous par WhatsApp, FAQ, contact et carte.
 
 Site statique : une seule page en HTML, CSS et JavaScript, sans framework ni outil de build.
 
-**Adresse publique :** https://cabinetbelieve.github.io/site-cabinet/
+**Adresse publique :** https://cabinet-believe.vercel.app/
 
 ## Contenu du dépôt
 
@@ -25,7 +25,7 @@ Site statique : une seule page en HTML, CSS et JavaScript, sans framework ni out
 2. Dépôt GitHub → **Settings → Pages** → *Build and deployment* :
    **Source : Deploy from a branch**, branche **main**, dossier **/ (root)**, puis *Save*.
 3. Onglet **Actions** : attendre la fin du déploiement « pages build and deployment » (1 à 2 minutes).
-4. Ouvrir https://cabinetbelieve.github.io/site-cabinet/ (si l'ancienne version s'affiche, vider le cache ou ajouter `?v=2` à l'adresse).
+4. Ouvrir https://cabinet-believe.vercel.app/ (si l'ancienne version s'affiche, vider le cache ou ajouter `?v=2` à l'adresse).
 
 ## Modifier le contenu
 
@@ -49,6 +49,6 @@ Site statique : une seule page en HTML, CSS et JavaScript, sans framework ni out
 ## Notes
 
 - `robots.txt` n'est lu par les moteurs de recherche que s'il est à la racine du domaine
-  (par exemple avec un nom de domaine personnalisé). Sur `cabinetbelieve.github.io/site-cabinet/`,
+  (par exemple avec un nom de domaine personnalisé). Sur `cabinet-believe.vercel.app`,
   soumettre plutôt `sitemap.xml` dans Google Search Console.
 - Le formulaire de rendez-vous n'envoie rien tout seul : il prépare un message que le patient envoie lui-même par WhatsApp.
